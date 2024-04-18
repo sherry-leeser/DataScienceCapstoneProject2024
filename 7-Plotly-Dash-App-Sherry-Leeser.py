@@ -5,6 +5,7 @@ import plotly.express as px
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
+import more_itertools
 
 # Read the space data into pandas dataframe
 spacex_df = pd.read_csv("spacex_launch_dash.csv")
